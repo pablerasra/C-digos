@@ -1,18 +1,8 @@
 ﻿namespace Pila_y_Cola_Enlazadas
 {
-   
-
-    
-
         using System;
 
         using System.Collections.Generic;
-
-
-
-       
-
-        
 
             internal class Program
 
