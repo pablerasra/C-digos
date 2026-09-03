@@ -47,6 +47,21 @@ Implementación personalizada de una estructura de datos FIFO (First-In, First-O
 
 ### Estructura del Código
 - `Cola_Nodos_FIFO.cs`: Contiene la clase genérica `NodeQueue<T>`, la clase anidada `Node` y el punto de entrada ejecutable.
+
+
+---
+
+##4. Algoritmos Prácticos con Pilas (`Stack<T>`)
+
+Demostración de tres algoritmos fundamentales basados en la estructura de datos LIFO (Last-In, First-Out) utilizando `Stack<T>`.
+
+### Conceptos Clave Aplicados
+- **Verificación de Símbolos Balanceados**: Comprobación de pares de apilado/desapilado para delimitadores agrupados (`()`, `{}`, `[]`).
+- **Detección de Palíndromos/Capicúas**: Apilado de la primera mitad de una cadena y comparación inversa con la segunda mitad respetando la simetría de cadenas de longitud par e impar.
+- **Evaluación de Notación Polaca Inversa (Postfija)**: Procesamiento de operaciones aritméticas sin paréntesis apilando operandos y extrayéndolos al evaluar operadores (`+`, `-`, `*`).
+
+### Estructura del Código
+- `Algoritmos_Pilas_Stack.cs`: Implementación de los métodos de resolución algorítmica y su ejecución mediante casos de prueba en el método `Main`.
 ##Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
