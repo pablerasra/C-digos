@@ -34,6 +34,19 @@ Creación de una clase de colección personalizada genérica que demuestra el re
 
 ---
 
+
+##3. Estructura de Datos Cola Basada en Nodos (`NodeQueue<T>`)
+
+Implementación personalizada de una estructura de datos FIFO (First-In, First-Out) utilizando referencias dinámicas de nodos enlazados en memoria.
+
+### Conceptos Clave Aplicados
+- **Estructuras Enlazadas Directas**: Gestión manual de nodos mediante punteros implícitos (`Next`), controlando cabeza (`_top`) y cola (`_bottom`).
+- **Operaciones FIFO Tradicionales**: Métodos `Enqueue`, `Dequeue` y `Peek` con manejo de estados y excepciones.
+- **Búsqueda y Eliminación Personalizada**: Implementación del método `EliminarProhibido` para desenlazar nodos de forma condicional ajustando referencias internas según su posición (inicio, medio o fin).
+- **`EqualityComparer<T>.Default`**: Comparación genérica segura de elementos dinámicos sin restricciones de tipo.
+
+### Estructura del Código
+- `Cola_Nodos_FIFO.cs`: Contiene la clase genérica `NodeQueue<T>`, la clase anidada `Node` y el punto de entrada ejecutable.
 ##Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
