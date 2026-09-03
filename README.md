@@ -16,6 +16,22 @@ Este módulo muestra la implementación de criterios de ordenación jerárquicos
 ### Estructura del Código
 - `Comparacion_y_Ordenacion_Personalizada.cs`: Incluye la clase de dominio `Jugador` con implementación de la interfaz de comparación y el punto de entrada ejecutable.
 
+
+---
+
+##2. Colección Genérica e Iteración (`IEnumerable` & `yield`)
+
+Creación de una clase de colección personalizada genérica que demuestra el redimensionamiento manual de arrays y la iteración diferida.
+
+### Conceptos Clave Aplicados
+- **Generics (`<T>`)**: Creación de la clase `MyCollection<T>` para manejar datos de forma flexible e independiente del tipo.
+- **Redimensionamiento Manual de Arrays**: Copia explícita de elementos mediante bucles `for` para incrementar dinámicamente la capacidad del array interno.
+- **Evaluación Diferida con `yield return`**: Uso del iterador `yield` dentro del método `ObtenerPrimeros` para devolver elementos bajo demanda sin instanciar listas adicionales.
+- **Implementación de `IEnumerable`**: Definición de `GetEnumerator` genérico y no genérico para habilitar el recorrido con sintaxis `foreach`.
+
+### Estructura del Código
+- `Coleccion_Generica_Iteradores.cs`: Contiene la clase `MyCollection<T>` y el método `Main` para la ejecución del flujo de prueba.
+
 ---
 
 ##Cómo ejecutar el proyecto
