@@ -14,7 +14,7 @@ Este módulo muestra la implementación de criterios de ordenación jerárquicos
 - **Pattern Matching & Null Safety**: Manejo de nulos y verificación de tipos utilizando patrones modernos de C#.
 
 ### Estructura del Código
-- `Program.cs`: Incluye la clase de dominio `Jugador` con implementación de la interfaz de comparación y el punto de entrada ejecutable.
+- `Comparacion_y_Ordenacion_Personalizada.cs`: Incluye la clase de dominio `Jugador` con implementación de la interfaz de comparación y el punto de entrada ejecutable.
 
 ---
 
