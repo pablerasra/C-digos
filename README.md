@@ -62,6 +62,22 @@ Demostración de tres algoritmos fundamentales basados en la estructura de datos
 
 ### Estructura del Código
 - `Algoritmos_Pilas_Stack.cs`: Implementación de los métodos de resolución algorítmica y su ejecución mediante casos de prueba en el método `Main`.
+
+
+---
+
+##5. Pila y Cola Enlazadas Personalizadas (`PilaEnlazada<T>` y `ColaEnlazada<T>`)
+
+Construcción paralela de dos estructuras lineales fundamentales reutilizando una misma clase de nodo genérico (`Nodo<T>`).
+
+### Conceptos Clave Aplicados
+- **Reutilización de Componentes**: Uso del tipo `Nodo<T>` como bloque de construcción base tanto para estructuras LIFO como FIFO.
+- **Implementación LIFO (Pila)**: Control de inserción y extracción mediante un único puntero superior (`tope`).
+- **Implementación FIFO (Cola)**: Manejo de doble puntero (`frente` y `final`) para garantizar inserciones y extracciones eficientes.
+- **Manejo de Punteros en Memoria**: Asignación y desenlace explícito de referencias para prevenir fugas de memoria o estados inconsistentes.
+
+### Estructura del Código
+- `Pila_y_Cola_Enlazadas.cs`: Contiene la clase `Nodo<T>`, las implementaciones `PilaEnlazada<T>` y `ColaEnlazada<T>`, e instrucciones simples de prueba en `Main`.
 ##Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
