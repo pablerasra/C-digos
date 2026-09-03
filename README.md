@@ -4,7 +4,7 @@ Repositorio con demostraciones técnicas sobre buenas prácticas, programación 
 
 ---
 
-## 📌 1. Comparación y Ordenación Personalizada (IComparable<T>)
+##1. Comparación y Ordenación Personalizada (IComparable<T>)
 
 Este módulo muestra la implementación de criterios de ordenación jerárquicos y la correcta sobrescritura de métodos base de objetos en C#.
 
@@ -18,7 +18,7 @@ Este módulo muestra la implementación de criterios de ordenación jerárquicos
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+##Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
    git clone https://github.com/pablerasra/C-digos.git
